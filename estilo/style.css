@@ -50,7 +50,7 @@ header{
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
-    margin-bottom: 20px; /*usado pra afastar o h1 do cabeçalho do texto de baixo do cabeçalho, no caso o p*/
+    padding-bottom: 20px; /*usado pra afastar o h1 do cabeçalho do texto de baixo do cabeçalho, no caso o p*/
     font-size: 3em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
@@ -62,7 +62,7 @@ header > p {
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 10px; /* para quando diminuir a tela, nao fcar muito grudado as laterais do browser*/
     padding-right: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
